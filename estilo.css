@@ -83,6 +83,7 @@ body {
 .botones-secciones {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-evenly;
   margin: 20px;
 }
