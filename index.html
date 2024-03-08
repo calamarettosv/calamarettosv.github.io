@@ -31,9 +31,11 @@
     />
     <title>Calamaretto</title>
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+    
     <script type="text/javascript">
+      var dominioRedireccionado = "calamarettosv.github.io"; // Reemplaza "tudominio.com" con tu propio dominio
       if (window.location.hostname.match(/^www\./i)) {
-          window.location.hostname = window.location.hostname.replace(/^www\./i, '');
+          window.location.href = "http://" + dominioRedireccionado + window.location.pathname + window.location.search;
       }
   </script>
   </head>
