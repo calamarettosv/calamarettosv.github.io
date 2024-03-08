@@ -15,7 +15,3 @@ document.addEventListener("click", function (event) {
     menu.classList.remove("show");
   }
 });
-
-if (window.location.hostname.match(/^www\./i)) {
-  window.location.hostname = window.location.hostname.replace(/^www\./i, "");
-}
