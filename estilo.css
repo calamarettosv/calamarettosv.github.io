@@ -149,7 +149,7 @@ body {
   font-size: 25px;
   text-align: left;
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 .contactos {
@@ -182,182 +182,13 @@ body {
   margin-right: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
-  * {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+.div-principal_solonombreyprecio {
+  border: 5px solid orange;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin: 20px;
+}
 
-  @font-face {
-    font-family: Sofy;
-    src: url(./Rottely.otf);
-  }
-
-  body {
-    height: 100vh;
-    background: #142841;
-    color: #fff;
-  }
-
-  .navbar {
-    justify-content: left;
-  }
-
-  .menu-toggle {
-    display: flex;
-  }
-
-  .menu {
-    position: absolute;
-    display: none;
-    flex-direction: column;
-    top: 85px;
-    left: 10px;
-    background: #1c5777;
-    width: 400px;
-    padding: 10px;
-    border-radius: 10px;
-    justify-content: space-evenly;
-  }
-
-  .menu.show {
-    display: flex;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-
-  .logo img {
-    height: 35px;
-    width: 35px;
-    margin-left: 20px;
-    margin-right: 10px;
-    border-radius: 30px;
-  }
-
-  .nombre-restaurante {
-    text-decoration: none;
-    font-weight: bold;
-    color: #71f48e;
-    font-family: Sofy;
-  }
-  .nombre-restaurante {
-    text-decoration: none;
-    font-weight: bold;
-    color: #71f48e;
-    font-family: Sofy;
-  }
-
-  .botones-secciones {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    margin: 20px;
-  }
-
-  .secciones {
-    margin-bottom: 20px;
-    height: 100px;
-    width: 310px;
-    min-width: 250px;
-    font-size: 20;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    line-height: 100px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background-color: #FF7F50;
-  }
-
-  .redes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex-start;
-  }
-
-  .p_contactanos {
-    text-align: justify;
-  }
-  
-  .imagen {
-    display: flex;
-    text-decoration: none;
-    color: #FFF;
-    align-items: center;
-    width: 200px;
-    margin-bottom: 10px;
-  }
-  
-  .imagen img {
-    display: flex;
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
-    margin-right: 10px;
-  }
-
-  @media only screen and (max-width: 750px) {
-    .secciones {
-      margin-bottom: 20px;
-      height: 100px;
-      width: 260px;
-      min-width: 200px;
-      font-size: 20;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      line-height: 100px;
-      box-sizing: border-box;
-      border-radius: 10px;
-      background-color: #FF7F50;
-    }
-  }
-
-  @media only screen and (max-width: 550px) {
-    .menu {
-      width: 300px;
-      height: 250px;
-    }
-
-    .secciones {
-      margin-bottom: 20px;
-      height: 100px;
-      width: 310px;
-      min-width: 250px;
-      font-size: 20;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      line-height: 100px;
-      box-sizing: border-box;
-      border-radius: 10px;
-      background-color: #FF7F50;
-    }
-  }
-
-  @media only screen and (max-width: 300px) {
-    .menu {
-      width: 225px;
-    }
-
-    .secciones {
-      margin-bottom: 20px;
-      height: 100px;
-      width: 275px;
-      min-width: 225px;
-      font-size: 20;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      line-height: 100px;
-      box-sizing: border-box;
-      border-radius: 10px;
-      background-color: #FF7F50;
-    }
-  }
+.div-principal_solonombreyprecio_responsive {
+display: none;
 }
