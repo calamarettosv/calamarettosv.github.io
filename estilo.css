@@ -24,7 +24,7 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(to bottom right, #142841, #173B55, #1B5875);
+  background: #142841;
   background-attachment: fixed;
   color: #fff;
 }
@@ -91,6 +91,41 @@ body {
   color: orange;
 }
 
+/* Sección de contactos */
+
+.contactos {
+  margin: 20px;
+}
+
+.p_contactanos {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagen {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  align-items: center;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+}
+
+.imagen img {
+  display: flex;
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+
 /* Sección de botones de página  */
 
 .botones-secciones {
@@ -106,7 +141,7 @@ body {
   height: 100px;
   width: 400px;
   min-width: 300px;
-  font-size: 22;
+  font-size: 23;
   text-align: center;
   text-decoration: none;
   line-height: 100px;
@@ -187,39 +222,4 @@ body {
 
 .div-principal_solonombreyprecio_responsive {
   display: none;
-}
-
-/* Sección de contactos */
-
-.contactos {
-  margin: 20px;
-}
-
-.p_contactanos {
-  text-align: center;
-  margin-bottom: 10px;
-  font-family: "Roboto-Bold";
-  font-size: 17px;
-}
-
-.redes {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.imagen {
-  display: flex;
-  text-decoration: none;
-  color: #fff;
-  align-items: center;
-  font-family: "Roboto-Regular";
-  font-size: 17px;
-}
-
-.imagen img {
-  display: flex;
-  height: 35px;
-  width: 35px;
-  border-radius: 35px;
-  margin-right: 10px;
 }
