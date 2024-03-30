@@ -76,7 +76,7 @@
     letter-spacing: 1px;
   }
 
-  /* Sección contactos */
+  /* Sección contactanos */
 
   .redes {
     display: flex;
@@ -88,6 +88,7 @@
   .p_contactanos {
     text-align: justify;
     font-family: "Roboto-Bold";
+    font-size: 17px;
   }
 
   .imagen {
@@ -98,6 +99,7 @@
     width: 200px;
     margin-bottom: 10px;
     font-family: "Roboto-Regular";
+    font-size: 17px;
   }
 
   .imagen img {
@@ -124,7 +126,6 @@
     width: 310px;
     min-width: 250px;
     font-size: 18;
-    font-weight: bold;
     font-family: "Roboto-Bold";
     text-align: center;
     text-decoration: none;
@@ -160,13 +161,13 @@
   }
 
   .nombreplatillo {
-    font-size: 16px;
+    font-size: 17px;
     text-align: left;
     font-family: "Roboto-Regular";
   }
 
   .preciocontinuo {
-    font-size: 16px;
+    font-size: 17px;
     text-align: right;
     font-family: "Roboto-Bold";
   }
@@ -179,14 +180,14 @@
 
   .precio-platillo_responsive {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 17px;
     text-align: right;
     overflow: none;
     font-family: "Roboto-Bold";
   }
 
   .nota {
-    font-size: 16px;
+    font-size: 17px;
     margin-left: 25px;
     margin-bottom: 20px;
     font-family: "Roboto-Bold";
@@ -194,18 +195,9 @@
 
   @media only screen and (max-width: 750px) {
     .secciones {
-      margin-bottom: 20px;
       height: 100px;
       width: 260px;
       min-width: 200px;
-      font-size: 20;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      line-height: 100px;
-      box-sizing: border-box;
-      border-radius: 10px;
-      background-color: #ff7f50;
     }
   }
 
@@ -216,39 +208,26 @@
     }
 
     .secciones {
-      margin-bottom: 20px;
       height: 100px;
       width: 310px;
       min-width: 250px;
-      font-size: 20;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      line-height: 100px;
-      box-sizing: border-box;
-      border-radius: 10px;
-      background-color: #ff7f50;
     }
   }
 
-  @media only screen and (max-width: 300px) {
+  @media only screen and (max-width: 380px) {
     .menu {
       width: 225px;
+      font-size: 20px;
+    }
+
+    .nombre-restaurante {
+      font-size: 20px;
     }
 
     .secciones {
-      margin-bottom: 20px;
       height: 100px;
       width: 275px;
       min-width: 225px;
-      font-size: 20;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      line-height: 100px;
-      box-sizing: border-box;
-      border-radius: 10px;
-      background-color: #ff7f50;
     }
   }
 }
