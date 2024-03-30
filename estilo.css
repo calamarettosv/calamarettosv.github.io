@@ -24,7 +24,8 @@
 
 body {
   height: 100vh;
-  background: #142841;
+  background: linear-gradient(to bottom right, #142841, #1A4770, #208279);
+  background-attachment: fixed;
   color: #fff;
 }
 
