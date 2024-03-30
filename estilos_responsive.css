@@ -1,12 +1,26 @@
 @media only screen and (max-width: 1000px) {
   * {
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
   }
 
   @font-face {
-    font-family: Sofy;
-    src: url(./Rottely.otf);
+    font-family: "Rottely";
+    src: url(./Rottely.ttf);
+  }
+
+  @font-face {
+    font-family: "Roboto-Regular";
+    src: url(./Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "Roboto-Light";
+    src: url(./Roboto-Light.ttf);
+  }
+
+  @font-face {
+    font-family: "Roboto-Bold";
+    src: url(./Roboto-Bold.ttf);
   }
 
   body {
@@ -58,7 +72,8 @@
   .nombre-restaurante {
     text-decoration: none;
     color: #71f48e;
-    font-family: Sofy;
+    font-family: "Rottely";
+    letter-spacing: 1px;
   }
 
   /* Sección contactos */
@@ -72,6 +87,7 @@
 
   .p_contactanos {
     text-align: justify;
+    font-family: "Roboto-Bold";
   }
 
   .imagen {
@@ -81,6 +97,7 @@
     align-items: center;
     width: 200px;
     margin-bottom: 10px;
+    font-family: "Roboto-Regular";
   }
 
   .imagen img {
@@ -106,8 +123,9 @@
     height: 100px;
     width: 310px;
     min-width: 250px;
-    font-size: 20;
+    font-size: 18;
     font-weight: bold;
+    font-family: "Roboto-Bold";
     text-align: center;
     text-decoration: none;
     line-height: 100px;
@@ -134,33 +152,44 @@
   }
 
   .nombreseccion {
-    font-size: 25px;
+    font-size: 22px;
     text-align: left;
     margin-top: 10px;
     margin-left: 25px;
+    font-family: "Roboto-Bold";
   }
 
   .nombreplatillo {
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
+    font-family: "Roboto-Regular";
   }
 
   .preciocontinuo {
-    font-size: 18px;
+    font-size: 16px;
     text-align: right;
+    font-family: "Roboto-Bold";
   }
 
   .detallesplatillo {
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
+    font-family: "Roboto-Light";
   }
- 
+
   .precio-platillo_responsive {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: right;
     overflow: none;
-    font-weight: bold;
+    font-family: "Roboto-Bold";
+  }
+
+  .nota {
+    font-size: 16px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-family: "Roboto-Bold";
   }
 
   @media only screen and (max-width: 750px) {

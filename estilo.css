@@ -1,11 +1,25 @@
 * {
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @font-face {
-  font-family: Sofy;
-  src: url(./Rottely.otf);
+  font-family: "Rottely";
+  src: url(./Rottely.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(./Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(./Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(./Roboto-Bold.ttf);
 }
 
 body {
@@ -54,7 +68,8 @@ body {
 .nombre-restaurante {
   text-decoration: none;
   color: #71f48e;
-  font-family: Sofy;
+  font-family: "Rottely";
+  letter-spacing: 1px;
 }
 
 .menu {
@@ -68,7 +83,8 @@ body {
   padding: 0px 15px;
   text-decoration: none;
   color: #71f48e;
-  font-family: Sofy;
+  font-family: "Rottely";
+  letter-spacing: 1px;
 }
 
 .menu li a:hover {
@@ -97,14 +113,16 @@ body {
   line-height: 100px;
   box-sizing: border-box;
   border-radius: 10px;
-  background-color: #FF7F50;
+  background-color: #ff7f50;
   color: #fff;
+  font-family: "Roboto-Bold";
 }
 
 .presentacion {
   font-size: 15px;
   text-align: justify;
   margin: 20px;
+  font-family: "Roboto-Regular";
 }
 
 /* Sección páginas del menú */
@@ -124,10 +142,11 @@ body {
 }
 
 .nombreseccion {
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
   margin-top: 10px;
   margin-left: 25px;
+  font-family: "Roboto-Bold";
 }
 
 .div-nombreyprecio {
@@ -137,20 +156,29 @@ body {
 }
 
 .nombreplatillo {
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
-  font-weight: bold;
+  font-family: "Roboto-Regular";
 }
 
 .preciocontinuo {
-  font-size: 20px;
+  font-size: 18px;
   text-align: right;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
 }
 
 .detallesplatillo {
-  font-size: 18px;
+  font-size: 15px;
   text-align: left;
+  font-weight: 100;
+  font-family: "Roboto-Light";
+}
+
+.nota {
+  font-size: 18px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  font-family: "Roboto-Bold";
 }
 
 .div-principal_solonombreyprecio {
@@ -160,14 +188,7 @@ body {
 }
 
 .div-principal_solonombreyprecio_responsive {
-display: none;
-}
-
-.nota {
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 25px;
-  margin-bottom: 20px;
+  display: none;
 }
 
 /* Sección de contactos */
@@ -179,7 +200,7 @@ display: none;
 .p_contactanos {
   text-align: center;
   margin-bottom: 10px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
 }
 
 .redes {
@@ -190,8 +211,9 @@ display: none;
 .imagen {
   display: flex;
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   align-items: center;
+  font-family: "Roboto-Regular";
 }
 
 .imagen img {
