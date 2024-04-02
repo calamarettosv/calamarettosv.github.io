@@ -5,28 +5,27 @@
 
   @font-face {
     font-family: "Rottely";
-    src: url(./Rottely.ttf);
+    src: url(./Rottely.ttf) format("truetype");
   }
 
   @font-face {
     font-family: "Roboto-Regular";
-    src: url(./Roboto-Regular.ttf);
+    src: url(./Roboto-Regular.ttf) format("truetype");
   }
 
   @font-face {
     font-family: "Roboto-Light";
-    src: url(./Roboto-Light.ttf);
+    src: url(./Roboto-Light.ttf) format("truetype");
   }
 
   @font-face {
     font-family: "Roboto-Bold";
-    src: url(./Roboto-Bold.ttf);
+    src: url(./Roboto-Bold.ttf) format("truetype");
   }
 
   body {
     height: 100vh;
     background:  #142841;
-    background-attachment: fixed;
     color: #fff;
   }
 
@@ -34,6 +33,8 @@
 
   .navbar {
     justify-content: left;
+    height: 70px;
+    box-sizing: border-box;
   }
 
   .menu-toggle {
@@ -44,12 +45,11 @@
     position: absolute;
     display: none;
     flex-direction: column;
-    top: 85px;
-    left: 10px;
-    background: #1c5777;
-    width: 400px;
+    top: 70px;
+    left: 0;
+    background: #2C3E54;
+    width: 100vw;
     padding: 10px;
-    border-radius: 10px;
     justify-content: space-evenly;
   }
 
@@ -69,14 +69,7 @@
     margin-right: 10px;
     border-radius: 30px;
   }
-
-  .nombre-restaurante {
-    text-decoration: none;
-    color: #71f48e;
-    font-family: "Rottely";
-    letter-spacing: 1px;
-  }
-
+  
   /* Sección contactanos */
 
   .redes {
@@ -126,7 +119,7 @@
     height: 100px;
     width: 310px;
     min-width: 250px;
-    font-size: 20;
+    font-size: 17px;
     font-family: "Roboto-Bold";
     text-align: center;
     text-decoration: none;
@@ -204,7 +197,7 @@
 
   @media only screen and (max-width: 550px) {
     .menu {
-      width: 300px;
+      width: 100vw;
       height: 250px;
     }
 
@@ -217,7 +210,7 @@
 
   @media only screen and (max-width: 380px) {
     .menu {
-      width: 225px;
+      width: 100vw;
       font-size: 20px;
     }
 
