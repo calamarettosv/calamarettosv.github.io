@@ -106,6 +106,10 @@
 
   /* Seccion botones página principal */
 
+  h1 {
+    font-size: 20px;
+  }
+
   .botones-secciones {
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +151,7 @@
   }
 
   .nombreseccion {
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
     margin-top: 10px;
     margin-left: 25px;
