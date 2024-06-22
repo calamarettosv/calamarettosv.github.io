@@ -1,5 +1,7 @@
 * {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -23,7 +25,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   background: #142841;
   color: #fff;
 }
@@ -170,6 +172,7 @@ h1 {
   border: 5px solid orange;
   border-radius: 10px;
   margin: 20px;
+  margin-bottom: 50px;
 }
 
 .div-interno {
@@ -223,8 +226,10 @@ h1 {
   border: 5px solid orange;
   border-radius: 10px;
   margin: 20px;
+  margin-bottom: 50px;
 }
 
 .div-principal_solonombreyprecio_responsive {
   display: none;
+  margin-bottom: 50px;
 }
