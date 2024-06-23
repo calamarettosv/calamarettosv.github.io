@@ -24,7 +24,7 @@
   }
 
   body {
-    height: 100vh;
+    height: 100%;
     background:  #142841;
     color: #fff;
   }
@@ -107,7 +107,7 @@
   /* Seccion botones página principal */
 
   h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .botones-secciones {
@@ -135,60 +135,14 @@
 
   /* Divs de cada página de menu*/
 
-  .div-principal_solonombreyprecio {
-    display: none;
-  }
-
-  .div-principal_solonombreyprecio_responsive {
-    display: block;
-    border: 5px solid orange;
-    border-radius: 10px;
-    margin: 20px;
-  }
-
-  .div-nombreyprecio_responsive {
-    display: block;
-  }
-
-  .nombreseccion {
-    font-size: 20px;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 25px;
-    font-family: "Roboto-Bold";
-  }
-
-  .nombreplatillo {
-    font-size: 17px;
-    text-align: left;
-    font-family: "Roboto-Regular";
-  }
-
-  .preciocontinuo {
-    font-size: 17px;
-    text-align: right;
-    font-family: "Roboto-Bold";
+  .nombreyprecio_responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .detallesplatillo {
-    font-size: 14px;
     text-align: left;
-    font-family: "Roboto-Light";
-  }
-
-  .precio-platillo_responsive {
-    margin-top: 10px;
-    font-size: 17px;
-    text-align: right;
-    overflow: none;
-    font-family: "Roboto-Bold";
-  }
-
-  .nota {
-    font-size: 17px;
-    margin-left: 25px;
-    margin-bottom: 20px;
-    font-family: "Roboto-Bold";
   }
 
   @media only screen and (max-width: 750px) {

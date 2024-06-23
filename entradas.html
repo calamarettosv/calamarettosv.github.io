@@ -1,124 +1,164 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="keywords"
-      content="Calamaretto, restaurante de mariscos, mariscos frescos, camarones, ceviche, Zaragoza"
-    />
-    <meta name="geo.region" content="503" />
-    <meta name="geo.placename" content="Calamaretto" />
-    <meta
-      name="description"
-      content="Bienvenido a nuestro restaurante de mariscos en Zaragoza, donde ofrecemos las mejores especialidades del mar. 
-      Disfruta de nuestra amplia selección de platos de mariscos frescos y deliciosos."
-    />
-    <title>Entradas</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <link rel="stylesheet" type="text/css" href="estilos_responsive.css" />
-  </head>
 
-  <body>
-    
-    <!-- Menú de navegación -->
-    <nav class="navbar">
-      <div class="menu-toggle" onclick="toggleMenu()">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords"
+    content="Calamaretto, restaurante de mariscos, mariscos frescos, camarones, ceviche, Zaragoza" />
+  <meta name="geo.region" content="503" />
+  <meta name="geo.placename" content="Calamaretto" />
+  <meta name="description" content="Bienvenido a nuestro restaurante de mariscos en Zaragoza, donde ofrecemos las mejores especialidades del mar. 
+      Disfruta de nuestra amplia selección de platos de mariscos frescos y deliciosos." />
+  <title>Entradas</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+  <link rel="stylesheet" type="text/css" href="estilos_responsive.css" />
+</head>
 
-      <a href="index.html" class="logo">
-        <img src="./logo_calamaretto.jpg" alt="Logo del restaurante" />
-        <p class="nombre-restaurante">Calamaretto</p>
+<body>
+
+  <!-- Menú de navegación -->
+  <nav class="navbar">
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <a href="index.html" class="logo">
+      <img src="./logo_calamaretto.jpg" alt="Logo del restaurante" />
+      <p class="nombre-restaurante">Calamaretto</p>
+    </a>
+
+    <ul class="menu">
+      <li>
+        <a href="index.html"> Inicio </a>
+      </li>
+      <li>
+        <a href="ubicacion.html"> Ubicación</a>
+      </li>
+      <li>
+        <a href="sobrenosotros.html"> Sobre Nosotros </a>
+      </li>
+      <li>
+        <a href="eventos.html"> Eventos</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Sección de contactos-->
+  <div class="contactos">
+    <p class="p_contactanos">Contáctanos:</p>
+    <div class="redes">
+      <a href="https://www.instagram.com/calamaretto.sv/" class="imagen">
+        <img src="./logo_instagram.png" />
+        <p>@calamaretto.sv</p>
       </a>
+      <a href="https://www.facebook.com/calamarettosv" class="imagen">
+        <img src="./logo_facebook.png" />
+        <p>Calamaretto</p>
+      </a>
+      <a href="tel:+50376475261" class="imagen">
+        <img src="logo_telefono.png" />
+        <p>Llámanos</p>
+      </a>
+    </div>
+  </div>
 
-      <ul class="menu">
-        <li>
-          <a href="index.html"> Inicio </a>
-        </li>
-        <li>
-          <a href="ubicacion.html"> Ubicación</a>
-        </li>
-        <li>
-          <a href="sobrenosotros.html"> Sobre Nosotros </a>
-        </li>
-        <li>
-          <a href="eventos.html"> Eventos</a>
-        </li>
-      </ul>
-    </nav>
+  <div class="div-principal">
+    <h2 class="nombreseccion">Entradas</h2>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo">Papas Fritas</p>
+        <p class="preciocontinuo">$4.99</p>
+      </div>
+      <p class="detallesplatillo">
+        6 onzas de papas fritas con ketchup y queso rayado
+      </p>
 
-    <!-- Sección de contactos-->
-    <div class="contactos">
-      <p class="p_contactanos">Contáctanos:</p>
-      <div class="redes">
-        <a href="https://www.instagram.com/calamaretto.sv/" class="imagen">
-          <img src="./logo_instagram.png" />
-          <p>@calamaretto.sv</p>
-        </a>
-        <a href="https://www.facebook.com/calamarettosv" class="imagen">
-          <img src="./logo_facebook.png" />
-          <p>Calamaretto</p>
-        </a>
-        <a href="tel:+50376475261" class="imagen">
-          <img src="logo_telefono.png" />
-          <p>Llámanos</p>
-        </a>
+    </div>
+
+    <div class="div-interno">
+      <p class="nombreplatillo">Pinchos (2)</p>
+      <div class="nombreyprecio">
+        <p class="detallesplatillo">
+          Pinchos de camarón
+        </p>
+        <p class="preciocontinuo">$5.99</p>
+      </div>
+
+      <div class="nombreyprecio">
+        <p class="detallesplatillo">
+          Pinchos de carne
+        </p>
+        <p class="preciocontinuo">$4.99</p>
+      </div>
+
+      <div class="nombreyprecio">
+        <p class="detallesplatillo">Pinchos mixtos</p>
+        <p class="preciocontinuo">$6.99</p>
       </div>
     </div>
 
-    <div class="div-principal">
-      <h2 class="nombreseccion">Entradas</h2>
-      <br />
-
-      <div class="div-interno">
-        <div class="div-nombreyprecio">
-          <p class="nombreplatillo">Papas Fritas</p>
-          <p class="preciocontinuo">$4.99</p>
-        </div>
-        <p class="detallesplatillo">
-          6 onzas de papas fritas con ketchup y queso rayado
-        </p>
-      </div>
-
-      <div class="div-interno">
-        <p class="nombreplatillo">Pinchos (2)</p>
-        <div class="div-nombreyprecio">
-          <p class="detallesplatillo">Pinchos de camarón</p>
-          <p class="preciocontinuo">$5.99</p>
-        </div>
-
-        <div class="div-nombreyprecio">
-          <p class="detallesplatillo">Pinchos de carne</p>
-          <p class="preciocontinuo">$4.99</p>
-        </div>
-
-        <div class="div-nombreyprecio">
-          <p class="detallesplatillo">Pinchos mixtos</p>
-          <p class="preciocontinuo">$6.99</p>
-        </div>
-      </div>
-
-      <div class="div-interno">
-        <div class="div-nombreyprecio">
-          <p class="nombreplatillo">Orden camaroncillos al ajo o empanizados</p>
-          <p class="preciocontinuo">$8.99</p>
-        </div>
-      </div>
-
-      <div class="div-interno">
-        <div class="div-nombreyprecio">
-          <p class="nombreplatillo">Nachos</p>
-          <p class="preciocontinuo">$5.50</p>
-        </div>
-        <p class="detallesplatillo">
-          Acompañados de salsa de queso, guacamole y carne
-        </p>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo">Orden camaroncillos al ajo o empanizados</p>
+        <p class="preciocontinuo">$8.99</p>
       </div>
     </div>
 
-    <script src="script.js"></script>
-  </body>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo">Orden camaroncillos al ajo o empanizados</p>
+        <p class="preciocontinuo">$8.99</p>
+      </div>
+
+    </div>
+
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo">Nachos</p>
+        <p class="preciocontinuo">$5.50</p>
+      </div>
+      <p class="detallesplatillo">
+        Acompañados de salsa de queso, guacamole y carne
+      </p>
+
+    </div>
+
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo">Yuca con chicharrón</p>
+        <p class="preciocontinuo">$6.50</p>
+      </div>
+    </div>
+
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo">Yuca con pepesca</p>
+        <p class="preciocontinuo">$5.25</p>
+      </div>
+    </div>
+
+    <div class="div-interno">
+      <div class="nombreyprecio_responsive">
+        <p class="nombreplatillo">Alitas en salsa barbacoa o buffalo</p>
+
+        <p class="preciocontinuo">6 alitas $5.00</p>
+        <p class="preciocontinuo">12 alitas $10.00</p>
+      </div>
+      <p class="detallesplatillo">Acompañado de aderezo, apio y zanahoria</p>
+    </div>
+
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo">Tostadas de plátano</p>
+        <p class="preciocontinuo">$3.99</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
