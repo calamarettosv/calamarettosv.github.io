@@ -1,137 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="keywords"
-      content="Calamaretto, restaurante de mariscos, mariscos frescos, camarones, ceviche, Zaragoza"
-    />
-    <meta name="geo.region" content="503" />
-    <meta name="geo.placename" content="Calamaretto" />
-    <meta
-      name="description"
-      content="Bienvenido a nuestro restaurante de mariscos en Zaragoza, donde ofrecemos las mejores especialidades del mar. 
-      Disfruta de nuestra amplia selección de platos de mariscos frescos y deliciosos."
-    />
-    <title>Platos Fuertes</title>
-    <link rel="icon" href="favicon.png" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <link rel="stylesheet" type="text/css" href="estilos_responsive.css" />
-  </head>
-  <body>
-    <!-- Menú de navegación -->
-    <header>
-      <nav class="navbar">
-        <div class="menu-toggle" onclick="toggleMenu()">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
 
-        <a href="index.html" class="logo">
-          <img src="./logo_calamaretto.jpg" alt="Logo del restaurante" />
-          <p class="nombre-restaurante">Calamaretto</p>
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords"
+    content="Calamaretto, restaurante de mariscos, mariscos frescos, camarones, ceviche, Zaragoza" />
+  <meta name="geo.region" content="503" />
+  <meta name="geo.placename" content="Calamaretto" />
+  <meta name="description" content="Bienvenido a nuestro restaurante de mariscos en Zaragoza, donde ofrecemos las mejores especialidades del mar. 
+      Disfruta de nuestra amplia selección de platos de mariscos frescos y deliciosos." />
+  <title>Platos Fuertes</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+  <link rel="stylesheet" type="text/css" href="estilos_responsive.css" />
+</head>
 
-        <ul class="menu">
-          <li>
-            <a href="index.html"> Inicio </a>
-          </li>
-          <li>
-            <a href="ubicacion.html"> Ubicación</a>
-          </li>
-          <li>
-            <a href="sobrenosotros.html"> Sobre Nosotros </a>
-          </li>
-          <li>
-            <a href="eventos.html"> Eventos</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- Sección de contactos-->
-    <div class="contactos">
-      <p class="p_contactanos">Contáctanos:</p>
-      <div class="redes">
-        <a href="https://www.instagram.com/calamaretto.sv/" class="imagen">
-          <img src="./logo_instagram.png" alt="Logo de Instagram" />
-          <p>@calamaretto.sv</p>
-        </a>
-        <a href="https://www.facebook.com/calamarettosv" class="imagen">
-          <img src="./logo_facebook.png" alt="Logo de Facebook" />
-          <p>Calamaretto</p>
-        </a>
-        <a href="tel:+50376475261" class="imagen">
-          <img src="logo_telefono.png" alt="Logo de Llamar" />
-          <p>Llámanos</p>
-        </a>
+<body>
+  <!-- Menú de navegación -->
+  <header>
+    <nav class="navbar">
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
       </div>
+
+      <a href="index.html" class="logo">
+        <img src="./logo_calamaretto.jpg" alt="Logo del restaurante" />
+        <p class="nombre-restaurante">Calamaretto</p>
+      </a>
+
+      <ul class="menu">
+        <li>
+          <a href="index.html"> Inicio </a>
+        </li>
+        <li>
+          <a href="ubicacion.html"> Ubicación</a>
+        </li>
+        <li>
+          <a href="sobrenosotros.html"> Sobre Nosotros </a>
+        </li>
+        <li>
+          <a href="eventos.html"> Eventos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de contactos-->
+  <div class="contactos">
+    <p class="p_contactanos">Contáctanos:</p>
+    <div class="redes">
+      <a href="https://www.instagram.com/calamaretto.sv/" class="imagen">
+        <img src="./logo_instagram.png" alt="Logo de Instagram" />
+        <p>@calamaretto.sv</p>
+      </a>
+      <a href="https://www.facebook.com/calamarettosv" class="imagen">
+        <img src="./logo_facebook.png" alt="Logo de Facebook" />
+        <p>Calamaretto</p>
+      </a>
+      <a href="tel:+50376475261" class="imagen">
+        <img src="logo_telefono.png" alt="Logo de Llamar" />
+        <p>Llámanos</p>
+      </a>
     </div>
+  </div>
 
-    <main>
-      <div class="div-principal">
-        <h2 class="nombreseccion">Pescado</h2>
+  <main>
+    <div class="div-principal">
+      <h2 class="nombreseccion">Pescado</h2>
 
-        <div class="div-interno">
-          <div class="nombreyprecio_responsive">
-            <p class="nombreplatillo">Pescado frito o al ajillo</p>
-            <p class="preciocontinuo">Mediano $8.50 | Grande $10.50</p>
-          </div>
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Pescado frito o al ajillo</p>
+          <p class="preciocontinuo">Mediano $8.50 | Grande $10.50</p>
         </div>
-
-        <div class="div-interno">
-          <div class="nombreyprecio_responsive">
-            <p class="nombreplatillo">Pescado relleno</p>
-            <p class="preciocontinuo">$15.00</p>
-          </div>
-        </div>
-
-        <div class="div-interno">
-          <div class="nombreyprecio_responsive">
-            <p class="nombreplatillo">Pescado con jenjibre y cilantro</p>
-            <p class="preciocontinuo">$13.00</p>
-          </div>
-        </div>
-
-        <div class="div-interno">
-          <div class="nombreyprecio_responsive">
-            <p class="nombreplatillo">Boca colorada</p>
-            <p class="preciocontinuo">$11.00</p>
-          </div>
-        </div>
-
-        <div class="div-interno">
-          <div class="nombreyprecio_responsive">
-            <p class="nombreplatillo">Lonja de pescado al ajillo o a la plancha</p>
-            <p class="preciocontinuo">$9.50</p>
-          </div>
-        </div>
-
-        <div class="div-interno">
-          <div class="nombreyprecio_responsive">
-            <p class="nombreplatillo">Lonja empanizada</p>
-            <p class="preciocontinuo">$10.50</p>
-          </div>
-        </div>
-
-        <p class="nota">Acompañados de arroz, ensalada verde y tortilla frita</p>
-
-        <br>
-
-        <h2 class="nombreseccion">Camarón</h2>
-
-        <div class="div-interno"> 
-          <div class="nombreyprecio_responsive">
-            <p class="nombreplatillo"></p>
-            <p class="preciocontinuo"></p>
-          </div>
-        </div>
-
       </div>
-    </main>
 
-    <script src="script.js"></script>
-  </body>
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Pescado relleno</p>
+          <p class="preciocontinuo">$15.00</p>
+        </div>
+      </div>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Pescado con jenjibre y cilantro</p>
+          <p class="preciocontinuo">$13.00</p>
+        </div>
+      </div>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Boca colorada</p>
+          <p class="preciocontinuo">$11.00</p>
+        </div>
+      </div>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Lonja de pescado al ajillo o a la plancha</p>
+          <p class="preciocontinuo">$9.50</p>
+        </div>
+      </div>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Lonja empanizada</p>
+          <p class="preciocontinuo">$10.50</p>
+        </div>
+      </div>
+
+      <p class="nota">Acompañados de arroz, ensalada verde y tortilla frita</p>
+
+      <br>
+
+      <h2 class="nombreseccion">Camarón</h2>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">camarones al ajo o a la plancha</p>
+          <p class="preciocontinuo">$12.50</p>
+        </div>
+      </div>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Camarones empanizados</p>
+          <p class="preciocontinuo">$13.00</p>
+        </div>
+      </div>
+
+      <p class="nota">Acompañados de arroz, ensalada verde y tortilla frita</p>
+
+      <br>
+
+      <h2 class="nombreseccion">Calamar</h2>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Calamar empanizado o al ajillo</p>
+          <p class="preciocontinuo">$12.99</p>
+        </div>
+      </div>
+
+      <p class="nota">Acompañado de arroz, ensalada verde y tortilla frita</p>
+
+      <br>
+
+      <h2 class="nombreseccion">Mar, tierra y cielo</h2>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Mar y tierra</p>
+          <p class="preciocontinuo">$15.99</p>
+        </div>
+        <p class="detallesplatillo_responsive">4 onzas de carne, camarón, papa, chrimol, chorizo y tortilla</p>
+      </div>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Mar y cielo</p>
+          <p class="preciocontinuo">$14.99</p>
+        </div>
+        <p class="detallesplatillo_responsive">1/4 pollo, camarón, papa, chrimol, chorizo, y tortilla</p>
+      </div>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Mar, tierra y cielo</p>
+          <p class="preciocontinuo">$17.99</p>
+        </div>
+        <p class="detallesplatillo_responsive">4 onzas de carne, 1/4 pollo, lonjas o camarón, papa, chrimol y tortilla
+        </p>
+      </div>
+
+      <br>
+
+      <h2 class="nombreseccion">Carne</h2>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="detallesplatillo_responsive">7 onzas de carne a la plancha, acompañada con vegetales, ensalada
+            verde, rusa o de papa, arroz y tortilla</p>
+          <p class="preciocontinuo">$11.50</p>
+        </div>
+      </div>
+
+      <br>
+
+      <h2 class="nombreseccion">Pollo</h2>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">1/4 pollo muslo</p>
+        </div>
+        <div class="nombreyprecio">
+          <p class="detallesplatillo">
+            Empanizado
+          </p>
+          <p class="preciocontinuo">$6.99</p>
+        </div>
+
+        <div class="nombreyprecio">
+          <p class="detallesplatillo">
+            A la plancha
+          </p>
+          <p class="preciocontinuo">$6.50</p>
+        </div>
+
+        <div class="nombreyprecio">
+          <p class="detallesplatillo">
+            Frito
+          </p>
+          <p class="preciocontinuo">$5.50</p>
+        </div>
+      </div>
+
+      <div class="div-interno">
+        <div class="nombreyprecio_responsive">
+          <p class="nombreplatillo">Filete de pechuga</p>
+        </div>
+        <div class="nombreyprecio">
+          <p class="detallesplatillo">
+            A la plancha
+          </p>
+          <p class="preciocontinuo">$7.80</p>
+        </div>
+
+        <div class="nombreyprecio">
+          <p class="detallesplatillo">
+            Empanizado
+          </p>
+          <p class="preciocontinuo">$8.80</p>
+        </div>
+
+        <div class="nombreyprecio">
+          <p class="detallesplatillo">
+            En salsa de hongos
+          </p>
+          <p class="preciocontinuo">$9.00</p>
+        </div>
+      </div>
+
+      <p class="nota">Acompañados de arroz, ensalada verde y tortilla frita</p>
+    </div>
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
