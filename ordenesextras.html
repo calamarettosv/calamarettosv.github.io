@@ -1,134 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="keywords"
-      content="Calamaretto, restaurante de mariscos, mariscos frescos, camarones, ceviche, Zaragoza"
-    />
-    <meta name="geo.region" content="503" />
-    <meta name="geo.placename" content="Calamaretto" />
-    <meta
-      name="description"
-      content="Bienvenido a nuestro restaurante de mariscos en Zaragoza, donde ofrecemos las mejores especialidades del mar. 
-      Disfruta de nuestra amplia selección de platos de mariscos frescos y deliciosos."
-    />
-    <title>Ordenes Extras</title>
-    <link rel="icon" href="favicon.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <link rel="stylesheet" type="text/css" href="estilos_responsive.css" />
-  </head>
-  <body>
-    <!-- Menú de navegación -->
-    <header>
-      <nav class="navbar">
-        <div class="menu-toggle" onclick="toggleMenu()">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
 
-        <a href="index.html" class="logo">
-          <img src="./logo_calamaretto.jpg" alt="Logo del restaurante" />
-          <p class="nombre-restaurante">Calamaretto</p>
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords"
+    content="Calamaretto, restaurante de mariscos, mariscos frescos, camarones, ceviche, Zaragoza" />
+  <meta name="geo.region" content="503" />
+  <meta name="geo.placename" content="Calamaretto" />
+  <meta name="description" content="Bienvenido a nuestro restaurante de mariscos en Zaragoza, donde ofrecemos las mejores especialidades del mar. 
+      Disfruta de nuestra amplia selección de platos de mariscos frescos y deliciosos." />
+  <title>Ordenes Extras</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+  <link rel="stylesheet" type="text/css" href="estilos_responsive.css" />
+</head>
 
-        <ul class="menu">
-          <li>
-            <a href="index.html"> Inicio </a>
+<body>
+  <!-- Menú de navegación -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="logo_calamaretto.jpg" class="nombre" alt="Logo restaurante">
+        CALAMARETTO
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  ml-auto">
+          <li class="nav-item">
+            <a class="nav-link enlace" href="index.html">INICIO</a>
           </li>
-          <li>
-            <a href="ubicacion.html"> Ubicación</a>
+          <li class="nav-item">
+            <a class="nav-link enlace" href="ubicacion.html">UBICACIÓN</a>
           </li>
-          <li>
-            <a href="sobrenosotros.html"> Sobre Nosotros </a>
+          <li class="nav-item">
+            <a class="nav-link enlace" href="sobrenosotros.html">SOBRE NOSOTROS</a>
           </li>
-          <li>
-            <a href="eventos.html"> Eventos</a>
+          <li class="nav-item">
+            <a class="nav-link enlace" href="eventos.html">EVENTOS</a>
           </li>
         </ul>
-      </nav>
-    </header>
 
-    <!-- Sección de contactos-->
-    <div class="contactos">
-      <p class="p_contactanos">Contáctanos:</p>
-      <div class="redes">
-        <a href="https://www.instagram.com/calamaretto.sv/" class="imagen">
-          <img src="./logo_instagram.png" alt="Logo de Instagram" />
-          <p>@calamaretto.sv</p>
-        </a>
-        <a href="https://www.facebook.com/calamarettosv" class="imagen">
-          <img src="./logo_facebook.png" alt="Logo de Facebook" />
-          <p>Calamaretto</p>
-        </a>
-        <a href="tel:+50376475261" class="imagen">
-          <img src="logo_telefono.png" alt="Logo de Llamar" />
-          <p>Llámanos</p>
-        </a>
+        <ul class="navbar-nav social-icons d-flex align-items-center ml-auto">
+          <li class="nav-item siguenos">Siguenos</li>
+          <li class="nav-item ">
+            <a class="nav-link" href="https://www.facebook.com/calamarettosv"><img src="logo_facebook.png"
+                alt="Enlace de Facebook" class=" align-center nombre"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/calamaretto.sv/"><img src="logo_instagram.png"
+                alt="Enlace a Instagram" class=" align-center" /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel:+50376475261"> <img src="logo_telefono.png" alt="Enlace a llamar"
+                class=" align-center nombre" /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel:+50376475261"> <img src="logo_whatsapp.png" alt="Enlace a WhatsApp"
+                class=" align-center nombre" /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="div-principal">
+    <h2 class="nombreseccion">Órdenes extras</h2>
+
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo"> Galleta salada </p>
+        <p class="preciocontinuo"> $0.60</p>
       </div>
     </div>
 
-    <div class="div-principal">
-      <h2 class="nombreseccion">Órdenes extras</h2>
-      
-      <div class="div-interno">
-        <div class="nombreyprecio">
-          <p class="nombreplatillo"> Galleta salada </p>
-          <p class="preciocontinuo"> $0.60</p>
-        </div>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo"> Tortilla (2) </p>
+        <p class="preciocontinuo"> $0.50</p>
       </div>
+    </div>
 
-      <div class="div-interno">
-        <div class="nombreyprecio">
-          <p class="nombreplatillo"> Tortilla (2) </p>
-          <p class="preciocontinuo"> $0.50</p>
-        </div>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo"> Pan </p>
+        <p class="preciocontinuo"> $0.50</p>
       </div>
+    </div>
 
-      <div class="div-interno">
-        <div class="nombreyprecio">
-          <p class="nombreplatillo"> Pan </p>
-          <p class="preciocontinuo"> $0.50</p>
-        </div>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo"> Arroz </p>
+        <p class="preciocontinuo"> $1.25</p>
       </div>
+    </div>
 
-      <div class="div-interno">
-        <div class="nombreyprecio">
-          <p class="nombreplatillo"> Arroz </p>
-          <p class="preciocontinuo"> $1.25</p>
-        </div>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo"> Aguacate </p>
+        <p class="preciocontinuo"> $1.25</p>
       </div>
+    </div>
 
-      <div class="div-interno">
-        <div class="nombreyprecio">
-          <p class="nombreplatillo"> Aguacate </p>
-          <p class="preciocontinuo"> $1.25</p>
-        </div>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo"> Limón </p>
+        <p class="preciocontinuo"> $0.50</p>
       </div>
+    </div>
 
-      <div class="div-interno">
-        <div class="nombreyprecio">
-          <p class="nombreplatillo"> Limón </p>
-          <p class="preciocontinuo"> $0.50</p>
-        </div>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo"> Ensalada de papa </p>
+        <p class="preciocontinuo"> $2.50</p>
       </div>
+    </div>
 
-      <div class="div-interno">
-        <div class="nombreyprecio">
-          <p class="nombreplatillo"> Ensalada de papa </p>
-          <p class="preciocontinuo"> $2.50</p>
-        </div>
+    <div class="div-interno">
+      <div class="nombreyprecio">
+        <p class="nombreplatillo"> Ensalada rusa </p>
+        <p class="preciocontinuo"> $2.50</p>
       </div>
+    </div>
 
-      <div class="div-interno">
-        <div class="nombreyprecio">
-          <p class="nombreplatillo"> Ensalada rusa </p>
-          <p class="preciocontinuo"> $2.50</p>
-        </div>
-      </div>
+    <!-- Bootstrap JS, Popper.js, and jQuery desde CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </boody>
+</body>
 
-    <script src="script.js"></script>
-  </body>
 </html>
