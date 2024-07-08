@@ -35,10 +35,20 @@ body {
   font-size: 21px !important;
 }
 
-.navbar-brand, .nav-link {
-  color:  #71f48e !important;
+.navbar-brand,
+.nav-link {
+  color: #71f48e !important;
   font-family: "Rottely";
   letter-spacing: .5px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  align-items: center;
 }
 
 .nombre {
@@ -48,7 +58,7 @@ body {
   margin-right: 5px;
 }
 
-.enlace:hover{
+.enlace:hover {
   color: orange !important;
 }
 
@@ -72,7 +82,7 @@ body {
 }
 
 .siguenos {
- font-family: "Roboto-Bold";
+  font-family: "Roboto-Bold";
 }
 
 /* Sección de botones de página  */
@@ -182,4 +192,18 @@ h1 {
   font-size: 19px;
   text-align: center;
   font-family: "Roboto-Bold";
+}
+
+/*Iframe ubicación*/
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+iframe {
+  width: 600px;
+  height: 400px;
 }
