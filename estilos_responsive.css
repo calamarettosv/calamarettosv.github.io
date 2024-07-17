@@ -29,10 +29,11 @@
   /* Menu de navegacion */
 
   .navbar {
-    font-size: 20px;
+    font-size: 20px !important;
   }
 
-  .navbar-brand, .nav-link {
+  .navbar-brand,
+  .nav-link {
     letter-spacing: 1px;
   }
 
@@ -51,12 +52,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-  }
-
-  .social-icons img {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
   }
 
   /* Seccion botones página principal */
@@ -80,10 +75,49 @@
     background-color: #ff7f50;
   }
 
+  .presentacion {
+    font-size: 15px;
+  }
+
   /* Divs de cada página de menu*/
 
   .detallesplatillo {
     text-align: left;
+  }
+
+  /*Texto Platillos menú */
+
+  .nombreseccion {
+    font-size: 22px;
+  }
+
+  .nombreplatillo {
+    font-size: 17px;
+  }
+
+  .detallesplatillo {
+    font-size: 15px;
+    font-family: "Roboto-Light";
+    margin: 5px;
+  }
+
+  .detallesplatillo_responsive {
+    font-size: 15px;
+    font-family: "Roboto-Light";
+    margin: 5px;
+  }
+
+  .preciocontinuo {
+    font-size: 17px;
+    font-family: "Roboto-Bold";
+    margin: 5px;
+  }
+
+  .nota {
+    margin: 10px;
+    font-size: 17px;
+    text-align: center;
+    font-family: "Roboto-Bold";
   }
 
   @media only screen and (max-width: 750px) {
@@ -126,6 +160,4 @@
       }
     }
   }
-
-
 }

@@ -54,7 +54,7 @@ body {
 .nombre {
   height: 35px;
   width: 35px;
-  border-radius: 20px;
+  border-radius: 50%;
   margin-right: 5px;
 }
 
@@ -78,7 +78,7 @@ body {
 .social-icons img {
   width: 35px;
   height: 35px;
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 .siguenos {
@@ -89,7 +89,7 @@ body {
 
 h1 {
   font-family: "Roboto-Bold";
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
   margin: 20px;
 }
@@ -157,14 +157,14 @@ h1 {
 /*Texto Platillos menú */
 
 .nombreseccion {
-  font-size: 25px;
+  font-size: 24px;
   font-family: "Roboto-Bold";
   margin: 20px;
   text-align: center;
 }
 
 .nombreplatillo {
-  font-size: 19px;
+  font-size: 18px;
   font-family: "Roboto-Regular";
   margin: 5px;
 }
@@ -182,14 +182,14 @@ h1 {
 }
 
 .preciocontinuo {
-  font-size: 19px;
+  font-size: 18px;
   font-family: "Roboto-Bold";
   margin: 5px;
 }
 
 .nota {
   margin: 10px;
-  font-size: 19px;
+  font-size: 18px;
   text-align: center;
   font-family: "Roboto-Bold";
 }
